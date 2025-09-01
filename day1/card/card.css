@@ -1,0 +1,10 @@
+.card {
+  width: 300px;
+}
+
+.image {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  text-align: center;
+}

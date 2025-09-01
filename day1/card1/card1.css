@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+}
+
+.card {
+  width: 300px;
+
+  text-align: center;
+  margin: 60px;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+  border: 10px solid pink;
+  padding: 10px 10px;
+  object-fit: cover;
+}
+
+.hum {
+  width: 300px;
+  font-size: 30px;
+  font-weight: 700;
+}

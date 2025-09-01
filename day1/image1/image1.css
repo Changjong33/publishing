@@ -1,0 +1,8 @@
+.img_2 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: solid 5px coral;
+  border-radius: 99999px;
+  padding: 5px 5px;
+}

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+}
+.card {
+  width: 270px;
+  height: 500px;
+}
+.img {
+  width: 270px;
+  height: 400px;
+  object-fit: cover;
+}
+.bland {
+  font-size: 10px;
+  margin-top: 0px;
+}
+.name {
+  font-size: 12px;
+  margin-top: -5px;
+}
+.vel {
+  font-size: 12px;
+  margin-top: -10px;
+  display: flex;
+}
+.sel {
+  color: red;
+  margin-right: 4px;
+}
