@@ -17,6 +17,10 @@ section {
 }
 .title > span {
   color: #0066cc;
+  transition: all 1s;
+}
+.title > span:hover {
+  text-decoration: underline;
 }
 .products {
   display: flex;

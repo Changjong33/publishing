@@ -1,0 +1,14 @@
+button {
+  color: white;
+  background-color: rgb(39, 148, 207);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+  transition: background-color 0s;
+}
+button:hover {
+  background-color: rgb(4, 70, 96);
+}
+.ri-chat-1-fill {
+  margin-right: 5px;
+}
