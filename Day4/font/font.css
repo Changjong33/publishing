@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "NostalgicDesertYeonwoo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2508-2@1.0/Griun_YEONWOO-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "NostalgicDesertYeonwoo";
+  font-size: 50px;
+  margin-top: 100px;
+}

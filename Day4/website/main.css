@@ -1,0 +1,9 @@
+section {
+  height: 100vh;
+  border: 5px solid red;
+}
+.first {
+  background-image: url(미니언.jpg);
+  background-size: cover;
+  background-repeat: 50% 50%;
+}

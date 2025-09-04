@@ -1,0 +1,99 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.box {
+  width: 20vw;
+  height: 25vh;
+  color: white;
+  padding: 7px;
+  position: relative;
+}
+.box > span {
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  top: 90%;
+  left: 70%;
+}
+.box > .copy_box {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy_box > .copy {
+  width: 100px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0);
+  border: 4px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 1s;
+}
+.box:hover > .copy_box > .copy {
+  color: white;
+  border: 4px solid white;
+}
+.gold_ {
+  background-color: #eccc68;
+}
+.coral_ {
+  background-color: #ff7f50;
+}
+.wild_ {
+  background-color: #ff6b81;
+}
+.peace_ {
+  background-color: #a4b0be;
+}
+.grisaille_ {
+  background-color: #57606f;
+}
+.orange_ {
+  background-color: #ffa502;
+}
+.tomato_ {
+  background-color: #ff6348;
+}
+.water_ {
+  background-color: #ff4757;
+}
+.bay_ {
+  background-color: #747d8c;
+}
+.prestige_ {
+  background-color: #2f3542;
+}
+.lime_ {
+  background-color: #7bed9f;
+}
+.sky_ {
+  background-color: #70a1ff;
+}
+.sat_ {
+  background-color: #5352ed;
+}
+.white_ {
+  background-color: #ffffff;
+}
+.city_ {
+  background-color: #dfe4ea;
+}
+.ufo_ {
+  background-color: #2ed573;
+}
+.chill_ {
+  background-color: #1e90ff;
+}
+.greek_ {
+  background-color: #3742fa;
+}
+.anti_ {
+  background-color: #f1f2f6;
+}
+.twinkle_ {
+  background-color: #ced6e0;
+}

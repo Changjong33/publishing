@@ -1,0 +1,42 @@
+section {
+  display: flex;
+}
+.card {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 10px;
+  padding: 50px 20px;
+  align-items: center;
+  position: relative;
+}
+.card > .check {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 0px;
+  left: 0ps;
+  z-index: -1;
+}
+.card > .img_box {
+  width: 250px;
+  height: 300px;
+}
+.img_box > img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+.card:hover > .img_box > img {
+  transform: scale(1.1);
+}
+.card:hover > .check {
+  z-index: 2;
+}
+.name {
+  margin-top: 40px;
+}
