@@ -33,7 +33,7 @@ nav > .button_box {
   padding: 8px 15px;
   border-radius: 22px;
   font-size: 14px;
-  background-color: white;
+  background-color: transparent;
   border: none;
   font-weight: 700;
   cursor: pointer;

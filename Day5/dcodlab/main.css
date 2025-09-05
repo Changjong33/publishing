@@ -1,0 +1,39 @@
+main {
+  width: auto;
+  height: 87.5vh;
+  background-image: url(미니언.jpg);
+}
+main > section {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+main > section > .text1 {
+  color: white;
+  font-size: 120px;
+  margin-bottom: 40px;
+}
+main > section > .text2 {
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 70px;
+}
+main > section > button {
+  width: 400px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+main > section > button:hover {
+  background-color: white;
+  color: black;
+}
