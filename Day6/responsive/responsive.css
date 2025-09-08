@@ -1,0 +1,28 @@
+header {
+  height: 50vh;
+}
+header > nav {
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+header > nav > ul {
+  padding: 15px 20px;
+  display: block;
+}
+header > nav > ul > li {
+  display: block;
+}
+header > nav > ul > .ri-bug-fill {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  header > nav > ul > li {
+    display: none;
+  }
+  header > nav > ul > .ri-bug-fill {
+    display: block;
+  }
+}

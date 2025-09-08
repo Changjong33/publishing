@@ -1,0 +1,53 @@
+main {
+  height: 80vh;
+}
+main > section {
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section > .card {
+  width: 23%;
+  height: 30%;
+  background-color: #f8f8f8;
+  position: relative;
+  margin: 10px 10px;
+  padding: 20px 20px;
+}
+.card > .img_1 {
+  margin-bottom: 10px;
+}
+.card > h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.card > .img_2 {
+  position: absolute;
+  top: 83%;
+  left: 84%;
+}
+.card > .save {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  main > section {
+    flex-direction: column;
+  }
+  section > .card {
+    width: 95vw;
+  }
+  .card > .img_2 {
+    display: none;
+  }
+  .card > .save {
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 85%;
+  }
+}
