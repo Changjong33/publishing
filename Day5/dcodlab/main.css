@@ -1,9 +1,28 @@
-main {
+.main1 {
   width: auto;
   height: 87.5vh;
-  background-image: url(미니언.jpg);
+  position: relative;
+  z-index: -1;
 }
-main > section {
+.main1 > .black_gradation {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+.main1 > video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -2;
+}
+.main1 > section {
   height: 100%;
   margin: 0 auto;
   max-width: 1200px;
@@ -12,17 +31,17 @@ main > section {
   justify-content: center;
   padding-bottom: 50px;
 }
-main > section > .text1 {
+.main1 > section > .text1 {
   color: white;
   font-size: 120px;
   margin-bottom: 40px;
 }
-main > section > .text2 {
+.main1 > section > .text2 {
   color: #888;
   font-size: 16px;
   margin-bottom: 70px;
 }
-main > section > button {
+.main1 > section > button {
   width: 400px;
   height: 30px;
   background-color: transparent;
@@ -33,7 +52,64 @@ main > section > button {
   font-weight: 600;
   transition: all 0.5s;
 }
-main > section > button:hover {
+.main1 > section > button:hover {
   background-color: white;
   color: black;
+}
+.main2 {
+  width: auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main2 > .title {
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  max-width: 1200px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main2 > section {
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+.main2 > section > .subb {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.main2 > section > .subb > .img_box {
+  width: 280px;
+  height: 120px;
+}
+.main2 > section > .subb > .img_box > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main2 > section > .subb > .hh {
+  color: #555555;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.main2 > section > .subb > .hhh {
+  color: #777777;
+  font-size: 14px;
 }
