@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 100px;
+  }
+  header > nav > ul {
+    width: 100px;
+    padding-right: 30px;
+  }
+  nav > ul > .mobile__menu {
+    color: gold;
+    font-size: 30px;
+    display: block;
+  }
+  ul > li {
+    display: none;
+  }
+  main > .introduction__box > .introduction__box-preface {
+    flex-direction: column;
+  }
+  .introduction__box > .introduction__box-preface > .preface-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .introduction__box > .introduction__box-preface > .preface-text {
+    display: flex;
+    justify-content: center;
+  }
+  .work__section {
+    height: 3500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .work__section > .work__section-title {
+    width: 100px;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .work__section > .work__section-grid {
+    height: 3400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main > .blog__section {
+    height: 1050px;
+  }
+  .blog__section-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog__flex-title {
+    display: flex;
+    justify-content: center;
+  }
+  .mainfooter {
+    width: 30px;
+  }
+  .preface-text::before {
+    content: none;
+  }
+}
