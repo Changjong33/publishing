@@ -1,0 +1,164 @@
+main {
+  width: 100vw;
+}
+main > .update {
+  height: 58.5vh;
+  position: relative;
+  display: flex;
+  align-items: end;
+}
+main > .update > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: -8px;
+}
+main > .update > .img__gradation {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  position: absolute;
+}
+main > .update > .img__gradation-bottom {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  z-index: 2;
+  background: RGBA(0, 0, 0, 1);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+main > .update > .youtube {
+  width: 33%;
+  height: 65%;
+  border: 1px solid #424242;
+  position: absolute;
+  top: 14%;
+  left: 49.5%;
+  z-index: 3;
+  background-image: url(https://i.ytimg.com/vi_webp/WUOB1pIBwZk/sddefault.webp);
+  background-position: 0px -60px;
+  display: flex;
+  flex-direction: column;
+}
+main > .update > .youtube > .youtube__gradation {
+  width: 100%;
+  height: 10%;
+  background-color: #424242;
+  background: #000000;
+  background: #000000;
+  background: RGBA(0, 0, 0, 1);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 4;
+}
+main > .update > .youtube > .youtube__top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+main > .update > .youtube > .youtube__top > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  margin-right: 10px;
+}
+main > .update > .youtube > .youtube__top > .top__title {
+  color: white;
+  font-size: 18px;
+  font-weight: 300px;
+  margin-right: 50px;
+}
+main > .update > .youtube > .youtube__top > .top__sharing {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main > .update > .youtube > .youtube__top > .top__sharing > i {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+main > .update > .youtube > .youtube__top > .top__sharing > span {
+  font-size: 14px;
+}
+main > .update > .youtube > .youtube__mid {
+  width: 230px;
+  height: 100px;
+  position: relative;
+  top: 22%;
+  left: 32%;
+}
+main > .update > .youtube > .youtube__mid > img {
+  width: 100%;
+  height: 100%;
+}
+main > .update > .youtube > .youtube__bot {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 3%;
+  right: 68%;
+  padding-left: 10px;
+}
+main > .update > .youtube > .youtube__bot > .bot__text {
+  width: 60%;
+}
+main > .update > .youtube > .youtube__bot > .bot__logo {
+  width: 105px;
+  height: 40px;
+  position: relative;
+  z-index: 2;
+}
+main > .update > .youtube > .youtube__bot > .bot__logo > img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+main > .update > .update__menu {
+  width: 510px;
+  height: 80px;
+  position: absolute;
+  top: 85.8%;
+  left: 16.3%;
+  z-index: 2;
+  gap: 1px;
+  display: flex;
+}
+main > .update > .update__menu > .menu {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 19px;
+  padding-left: 16px;
+}
+main > .update > .update__menu > .pick {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+main > .update > .update__menu > .nopick {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+main > .update > .update__menu > .menu > .menu__top {
+  font-size: 13px;
+  margin-bottom: 11px;
+}
+main > .update > .update__menu > .menu > .menu__bot {
+  font-size: 18px;
+}

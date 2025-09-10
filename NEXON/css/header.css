@@ -1,0 +1,128 @@
+header {
+  width: 100vw;
+  height: 64px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+header > .menubox {
+  width: 5%;
+  height: 100%;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header > .menubox > .ri-menu-line {
+  font-size: 20px;
+}
+header > picture {
+  padding-left: 270px;
+}
+header > picture > img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+header > .information {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border: 2px solid red;
+  gap: 15px;
+  padding-right: 40px;
+}
+header > .information > .information__card {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > .information > .information__card > .card__img {
+  width: 22px;
+  height: 22px;
+  background: #191919 url(//rs.nxfs.nexon.com/gnb/images/set_gnb_icon.png);
+  position: relative;
+  top: 0;
+  left: 0;
+}
+header > .information > .information__hover:hover .hover__text {
+  opacity: 1;
+}
+header > .information > .information__card > .card__text {
+  position: absolute;
+  top: 43px;
+  height: 18px;
+  padding: 1px 6px 0;
+  border-radius: 15px;
+  background-color: #1b1f24;
+  font-size: 11px;
+  line-height: 16px;
+  color: hsla(0, 0%, 100%, 0.9);
+  transition: all 0.2s;
+  overflow: hidden;
+  opacity: 0;
+  text-align: center;
+}
+
+header > .information > .information__card > .card__new {
+  width: 14px;
+  height: 14px;
+  color: #ffffff;
+  background-color: #07f;
+  font-size: 9px;
+  border-radius: 9999px;
+  border: none;
+  padding: 4px 0 4px 0;
+  position: absolute;
+  top: 20px;
+  right: 247px;
+  z-index: 3;
+  text-align: center;
+}
+header > .information > .imformation__pcroom {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > .information > .imformation__pcroom > .pcroom__logo {
+  width: 22px;
+  height: 22px;
+  background: url(//rs.nxfs.nexon.com/gnb/images/ic-pcbang2-location.svg);
+}
+header > .information > .imformation__pcroom > .pcroom__text {
+  position: absolute;
+  top: 43px;
+  height: 18px;
+  padding: 1px 6px 0;
+  border-radius: 15px;
+  background-color: #1b1f24;
+  font-size: 11px;
+  line-height: 16px;
+  color: hsla(0, 0%, 100%, 0.9);
+  transition: all 0.2s;
+  overflow: hidden;
+  opacity: 0;
+  text-align: center;
+}
+header > .information > .imformation__join > .join__text {
+  font-size: 14px;
+}
+header > .information > .imformation__join > .join__text:hover {
+  color: #07f;
+}
+header > .information > .imformation__login {
+  font-size: 15px;
+  padding: 9px 20px;
+  border: 2px solid #17191d;
+  border-radius: 19px;
+  font-weight: 700;
+}
+header > .information > .imformation__login:hover {
+  background-color: #07f;
+  color: hsla(0, 0%, 100%, 0.9);
+  border: 2px solid #07f;
+}

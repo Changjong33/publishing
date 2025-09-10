@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  header {
+    height: 32px;
+  }
+  header > .menubox {
+    width: 10%;
+    gap: 4px;
+    margin-right: 45px;
+  }
+  header > .menubox > .ri-menu-line {
+    font-size: 10px;
+  }
+  header > .menubox > .menubox__text {
+    font-size: 8px;
+  }
+  header > picture {
+    padding-left: 0px;
+  }
+  header > picture > img {
+    width: 105%;
+    height: 105%;
+  }
+  header > .information {
+    width: 20%;
+    padding-right: 10px;
+    gap: 6px;
+  }
+  header > .information > .information__hover {
+    display: none;
+  }
+  header > .information > .imformation__join {
+    display: flex;
+    align-items: center;
+  }
+  header > .information > .imformation__join > .join__text {
+    font-size: 7px;
+  }
+  header > .information > .imformation__login {
+    font-size: 7px;
+    padding: 5px 10px 4px 10px;
+    border: 1px solid #17191d;
+    border-radius: 19px;
+    font-weight: 700;
+  }
+}
