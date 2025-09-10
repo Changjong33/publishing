@@ -173,29 +173,3 @@ main > .blog__section {
 .blog__flex-card > .blog__card-text {
   margin-top: 8px;
 }
-
-main > .mainfooter {
-  width: 100vw;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-top: 50px;
-}
-.mainfooter > .footerbox {
-  width: 100%;
-  height: 600px;
-  max-width: 1040px;
-  margin: 0 auto;
-}
-
-.mainfooter > .last__name {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(232, 0, 0);
-  font-size: 18px;
-  font-weight: 700;
-  color: gold;
-}
