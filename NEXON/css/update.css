@@ -1,5 +1,6 @@
 main {
   width: 100vw;
+  background-color: #f8f9fa;
 }
 main > .update {
   height: 58.5vh;
@@ -45,6 +46,8 @@ main > .update > .youtube {
   background-position: 0px -60px;
   display: flex;
   flex-direction: column;
+  object-fit: cover;
+  cursor: pointer;
 }
 main > .update > .youtube > .youtube__gradation {
   width: 100%;
@@ -91,7 +94,10 @@ main > .update > .youtube > .youtube__top > .top__sharing > i {
   font-size: 20px;
   margin-bottom: 10px;
 }
-main > .update > .youtube > .youtube__top > .top__sharing > span {
+main > .update > .youtube > .youtube__top > .top__sharing > .ri-more-2-fill {
+  display: none;
+}
+main > .update > .youtube > .youtube__top > .top__sharing > .sharing__text {
   font-size: 14px;
 }
 main > .update > .youtube > .youtube__mid {
@@ -148,6 +154,7 @@ main > .update > .update__menu > .menu {
   flex-direction: column;
   padding-top: 19px;
   padding-left: 16px;
+  cursor: pointer;
 }
 main > .update > .update__menu > .pick {
   background-color: rgba(255, 255, 255, 0.3);
@@ -161,4 +168,10 @@ main > .update > .update__menu > .menu > .menu__top {
 }
 main > .update > .update__menu > .menu > .menu__bot {
   font-size: 18px;
+}
+.darkwhite {
+  color: rgba(255, 255, 255, 0.4);
+}
+.brightwhite {
+  color: rgba(255, 255, 255, 0.8);
 }

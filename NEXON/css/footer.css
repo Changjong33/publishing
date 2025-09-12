@@ -1,0 +1,123 @@
+footer {
+  width: 100vw;
+  background-color: #222426;
+  padding-right: 45px;
+}
+footer > .footer__top {
+  width: 100%;
+  height: 73px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0 0 40px;
+}
+footer > .footer__top > .top__ment {
+  color: #ffffff;
+  font-size: 12px;
+}
+footer > .footer__top > .top__ment:hover {
+  text-decoration: underline;
+}
+footer > .footer__top > .top__icon {
+  font-size: 18px;
+  color: #ffffff;
+}
+footer > .footer__top > .top__icon > .ri-youtube-fill:hover {
+  color: #07f;
+  cursor: pointer;
+}
+footer > .footer__top > .top__icon > .ri-twitter-x-line:hover {
+  color: #07f;
+  cursor: pointer;
+}
+footer > .footer__top > .top__icon > .ri-facebook-fill:hover {
+  color: #07f;
+  cursor: pointer;
+}
+footer > .footer__mid {
+  width: 100%;
+  height: 48px;
+  color: #f8f9fab3;
+  font-size: 12px;
+  padding: 31px 0 0 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+footer > .footer__mid > .first {
+  padding-right: 15px;
+}
+footer > .footer__mid > .mid {
+  padding: 0 15px 0 15px;
+  border-left: 1px solid #f8f9fab3;
+}
+footer > .footer__mid > .mid__text {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+footer > .footer__mid > .mid__text:hover {
+  color: #07f;
+}
+footer > .footer__mid > a {
+  width: 140px;
+  height: 34px;
+  background-color: #393a3c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 92.5%;
+  top: 27%;
+  transition: all 0.5s;
+}
+footer > .footer__mid > a:hover {
+  color: #07f;
+}
+footer > .footer__mid2 {
+  width: 100%;
+  height: 48px;
+  color: #f8f9fab3;
+  font-size: 12px;
+  padding: 14px 0 13px 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+footer > .footer__mid2 > .first {
+  padding-right: 15px;
+}
+footer > .footer__mid2 > .mid {
+  padding: 0 15px 0 15px;
+  border-left: 1px solid #f8f9fab3;
+}
+footer > .footer__mid2 > .mid__text {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+footer > .footer__mid2 > .mid__text:hover {
+  color: #07f;
+}
+footer > .footer__mid3 {
+  width: 100%;
+  height: 68px;
+  padding: 16px 0 0 40px;
+  font-size: 11px;
+  color: #f8f9fa4d;
+  line-height: 18px;
+  display: flex;
+}
+footer > .footer__mid3 > span {
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+footer > .footer__mid3 > span:hover {
+  color: #07f;
+}
+footer > .footer__last {
+  width: 100%;
+  height: 83px;
+  margin: 21px 0 0 39px;
+}
+footer > .footer__last > img {
+  width: 70px;
+}

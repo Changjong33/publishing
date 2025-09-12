@@ -1,0 +1,249 @@
+.recommended {
+  width: 100vw;
+}
+.recommended > .recommended__area {
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 76px;
+}
+.recommended > .recommended__area > .area__title {
+  font-size: 24px;
+}
+.recommended > .recommended__area > .area__box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.recommended__area > .area__box > .box__centers {
+  display: flex;
+  align-items: center;
+}
+.recommended__area > .area__box > .box__centers > a {
+  transition: all 0.5s;
+}
+.recommended__area > .area__box > .box__centers > a:hover {
+  color: #07f;
+}
+.recommended > .recommended__area > .area__box > .box__text {
+  color: #00cec6;
+  margin: 5px 0px 5px 3px;
+}
+.recommended > .recommended__area > .area__box > .box__buts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.area__box > .box__buts > .buts {
+  width: 28px;
+  height: 28px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 78%;
+}
+.area__box > .box__buts > .buts > i {
+  font-size: 28px;
+}
+.area__box > .box__buts > .left {
+  border: 1px solid #9fa1a7;
+  color: #9fa1a7;
+}
+.area__box > .box__buts > .right {
+  border: 1px solid #17191d;
+  color: #17191d;
+  cursor: pointer;
+}
+.area__box > .box__centers {
+  color: #17191d;
+  font-size: 14px;
+  cursor: pointer;
+}
+.area__box > .box__centers > a {
+  margin-left: 30px;
+}
+.recommended__area > .area__boxs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 342px;
+  margin-top: 10px;
+}
+.recommended__area > .area__boxs > .birthgame {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.recommended__area > .area__boxs > .birthgame > .birthgame__img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.birthgame > .birthgame__img > img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.birthgame:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.birthgame:hover > .birthgame__img > img {
+  transform: scale(1.1);
+}
+.recommended__area > .area__boxs > .birthgame > .birthgame__but {
+  color: #ffffff;
+  background-color: #00dbd3;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 16px;
+  margin: 16px 0 0 12px;
+  border-radius: 20px;
+}
+.recommended__area > .area__boxs > .birthgame > .birthgame__title {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 8px 0 4px 12px;
+}
+.recommended__area > .area__boxs > .birthgame > .birthimg {
+  width: 100%;
+  height: 100%;
+}
+.recommended__area > .area__boxs > .loginbox {
+  width: 36%;
+  height: 100%;
+  margin-left: 11px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding-top: 70px;
+  padding-left: 56px;
+}
+.recommended__area > .area__boxs > .loginbox > .loginbox__id {
+  width: 88%;
+  height: 22.5%;
+  color: #ffffff;
+  background-color: #17191d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 8px;
+  transition: all 0.5s;
+}
+.recommended__area > .area__boxs > .loginbox > .loginbox__id:hover {
+  background-color: #07f;
+}
+.area__boxs > .loginbox > .loginbox__box {
+  width: 88%;
+  height: 19%;
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  margin-bottom: 20px;
+}
+
+.area__boxs > .loginbox > .loginbox__box > .loginbox__disposable {
+  width: 49.8%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #4a4e57;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+.area__boxs > .loginbox > .loginbox__box > .loginbox__disposable:hover {
+  background-color: #07f;
+}
+.area__boxs > .loginbox > .loginbox__box > .loginbox__qr {
+  width: 49.8%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #4a4e57;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+.area__boxs > .loginbox > .loginbox__box > .loginbox__qr:hover {
+  background-color: #07f;
+}
+.area__boxs > .loginbox > .loginbox__convenient {
+  width: 88%;
+  height: 15.5%;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9fa1a7;
+  font-size: 12px;
+  font-family: "malgun gothic";
+}
+.area__boxs > .loginbox > .loginbox__convenient > .convenient__text {
+  margin-right: 18px;
+}
+.area__boxs > .loginbox > .loginbox__convenient > .convenient__logo {
+  width: 22px;
+  height: 22px;
+  margin-right: 6px;
+}
+.area__boxs > .loginbox > .loginbox__convenient > .convenient__logo > i {
+  font-size: 22px;
+}
+.area__boxs > .loginbox > .loginbox__convenient > .convenient__logo > img {
+  width: 100%;
+  height: 100%;
+}
+.area__boxs > .loginbox > .loginbox__information {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.loginbox__information > .information {
+  width: 88%;
+  font-size: 12px;
+  font-weight: 300;
+  color: #737881;
+}
+.loginbox__information > .information > .information__id {
+  margin-right: 16px;
+  transition: all 0.5s;
+}
+.loginbox__information > .information > .information__id:hover {
+  color: #07f;
+}
+.loginbox__information > .information > .information__pw {
+  transition: all 0.5s;
+}
+.loginbox__information > .information > .information__pw:hover {
+  color: #07f;
+}
+.loginbox__information > .information__join {
+  width: 15%;
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  justify-content: end;
+  transition: all 0.5s;
+  color: #737881;
+}
+.loginbox__information > .information__join:hover {
+  color: #07f;
+}

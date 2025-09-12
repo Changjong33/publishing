@@ -1,14 +1,12 @@
 header {
   width: 100vw;
   height: 64px;
-  border: 2px solid red;
   display: flex;
   justify-content: space-between;
 }
 header > .menubox {
   width: 5%;
   height: 100%;
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +28,7 @@ header > .information {
   display: flex;
   justify-content: end;
   align-items: center;
-  border: 2px solid red;
+
   gap: 15px;
   padding-right: 40px;
 }

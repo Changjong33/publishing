@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
   header {
-    height: 32px;
+    width: 768px;
+    height: 47px;
   }
   header > .menubox {
     width: 10%;
@@ -8,10 +9,10 @@
     margin-right: 45px;
   }
   header > .menubox > .ri-menu-line {
-    font-size: 10px;
+    font-size: 16px;
   }
   header > .menubox > .menubox__text {
-    font-size: 8px;
+    font-size: 12px;
   }
   header > picture {
     padding-left: 0px;
@@ -33,13 +34,259 @@
     align-items: center;
   }
   header > .information > .imformation__join > .join__text {
-    font-size: 7px;
+    font-size: 10px;
   }
   header > .information > .imformation__login {
-    font-size: 7px;
-    padding: 5px 10px 4px 10px;
+    font-size: 10px;
+    padding: 8px 14px 6px 14px;
     border: 1px solid #17191d;
     border-radius: 19px;
     font-weight: 700;
+  }
+  main {
+    width: 768px;
+    height: 280px;
+  }
+  main > .update {
+    width: 100%;
+    height: 100%;
+  }
+  main > .update > img {
+  }
+  main > .update > .youtube {
+    width: 36%;
+    height: 63%;
+    background-size: cover;
+    background-position: 0px -15px;
+  }
+  main > .update > .youtube > .youtube__top > img {
+    width: 33px;
+    height: 33px;
+  }
+  main > .update > .youtube > .youtube__top > .top__title {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  main
+    > .update
+    > .youtube
+    > .youtube__top
+    > .top__sharing
+    > .ri-share-forward-fill {
+    display: none;
+  }
+  main > .update > .youtube > .youtube__top > .top__sharing > .sharing__text {
+    display: none;
+  }
+  main > .update > .youtube > .youtube__top > .top__sharing > .ri-more-2-fill {
+    display: block;
+    font-size: 16px;
+  }
+  main > .update > .youtube > .youtube__mid {
+    width: 170px;
+    height: 70px;
+    top: 5px;
+    left: 50px;
+  }
+  main > .update > .youtube > .youtube__bot {
+    right: 38.5%;
+    width: 170px;
+  }
+  main > .update > .youtube > .youtube__bot > .bot__text {
+    font-size: 12px;
+  }
+  main > .update > .update__menu {
+    width: 70px;
+    height: 5px;
+    top: 93%;
+    left: 44%;
+  }
+  main > .update > .update__menu > .menu {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  main > .update > .update__menu > .menu > .menu__top {
+    display: none;
+  }
+  main > .update > .update__menu > .menu > .menu__bot {
+    display: none;
+  }
+  .recommended {
+    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .recommended > .recommended__area {
+    padding-top: 55px;
+  }
+  .recommended > .recommended__area > .area__title {
+    font-size: 19px;
+  }
+  .recommended__area > .area__boxs {
+    height: 250px;
+  }
+  .recommended > .recommended__area > .area__box > .box__text {
+    font-size: 12px;
+  }
+  .area__box > .box__buts > .buts {
+    width: 22px;
+    height: 22px;
+    padding: 1px;
+  }
+  .area__box > .box__buts > .buts > i {
+    font-size: 22px;
+  }
+  .area__box > .box__centers {
+    font-size: 10px;
+  }
+  .area__box > .box__centers > a {
+    margin-left: 20px;
+  }
+  .recommended__area > .area__boxs > .del {
+    display: none;
+  }
+  .recommended__area > .area__boxs > .birthgame {
+    width: 16.5%;
+  }
+  .recommended__area > .area__boxs > .birthgame > .birthgame__but {
+    font-size: 8px;
+    width: 22px;
+    height: 12px;
+    margin-top: 12px;
+  }
+  .recommended__area > .area__boxs > .birthgame > .birthgame__title {
+    font-size: 10px;
+  }
+  .recommended__area > .area__boxs > .loginbox {
+    width: 50%;
+    margin-left: 0px;
+    padding-top: 60px;
+    padding-left: 40px;
+  }
+  .recommended__area > .area__boxs > .loginbox > .loginbox__id {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .area__boxs > .loginbox > .loginbox__box > .loginbox__disposable {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .area__boxs > .loginbox > .loginbox__box > .loginbox__qr {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .area__boxs > .loginbox > .loginbox__convenient > .convenient__text {
+    font-size: 8px;
+  }
+  .area__boxs > .loginbox > .loginbox__convenient > .convenient__logo {
+    width: 14px;
+    height: 14px;
+  }
+  .area__boxs > .loginbox > .loginbox__convenient > .convenient__logo > i {
+    font-size: 16px;
+  }
+  .loginbox__information > .information {
+    font-size: 9px;
+  }
+  .loginbox__information > .information__join {
+    font-size: 9px;
+  }
+  .allgame {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .allgame > .allgame__top > .top__title > .title__name {
+    font-size: 19px;
+  }
+  .allgame > .allgame__mid {
+    width: 736px;
+    display: flex;
+  }
+  .allgame > .allgame__mid > .top > .mid__pickteg {
+    font-size: 8px;
+  }
+  .allgame > .allgame__mid > .top > .mid__teg {
+    font-size: 8px;
+    margin-right: 20px;
+  }
+  .allgame > .allgame__mid > .top {
+    margin-bottom: 0px;
+  }
+  .allgame > .allgame__mid > .bot > .mid__teg {
+    font-size: 8px;
+  }
+  .allgame > .allgame__bot {
+    height: 4050px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    column-gap: 23px;
+    row-gap: 60px;
+  }
+  .allgame {
+    height: 4500px;
+  }
+  .allgame > .allgame__clear {
+    width: 34px;
+    height: 36px;
+    border: 2px solid rgb(159, 161, 167);
+    position: absolute;
+    z-index: 100;
+    top: 98.7%;
+    left: 48%;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  .allgame > .allgame__clear > .clear__text {
+    display: none;
+  }
+  body {
+    position: relative;
+  }
+  footer {
+    position: absolute;
+    top: 1590%;
+    width: 768px;
+  }
+  footer > .footer__top {
+    height: 60px;
+    padding: 28px 0 0 30px;
+  }
+  footer > .footer__top > .top__ment {
+    font-size: 9px;
+  }
+  footer > .footer__mid {
+    padding: 20px 0 0 30px;
+  }
+  footer > .footer__mid > .mid__text {
+    font-size: 9px;
+  }
+  footer > .footer__mid2 {
+    padding: 10px 0 0 30px;
+    height: 0px;
+  }
+  footer > .footer__mid2 > .mid__text {
+    font-size: 9px;
+  }
+  footer > .footer__mid3 {
+    height: 68px;
+    padding: 30px 0 0 30px;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  footer > .footer__last {
+    height: 40px;
+    margin: 15px 0 0 30px;
+  }
+  footer > .footer__mid > a {
+    display: none;
   }
 }

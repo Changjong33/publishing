@@ -1,0 +1,300 @@
+.allgame {
+  width: 100vw;
+  height: 450vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  background-color: #f8f9fa;
+  position: relative;
+}
+.allgame > .allgame__clear {
+  width: 110px;
+  height: 36px;
+  border: 2px solid rgb(159, 161, 167);
+  color: rgb(159, 161, 167);
+  background-color: white;
+  position: absolute;
+  z-index: 100;
+  top: 98.7%;
+  left: 92%;
+  padding-right: 80px;
+  cursor: pointer;
+}
+.allgame > .allgame__clear > i {
+  font-size: 18px;
+}
+.allgame > .allgame__clear > .clear__text {
+  font-size: 11px;
+  margin-left: 5px;
+}
+.allgame > .allgame__top {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.allgame > .allgame__top > .top__title {
+  display: flex;
+  align-items: center;
+}
+.allgame > .allgame__top > .top__title > .title__name {
+  font-size: 24px;
+  margin-right: 13px;
+}
+.allgame > .allgame__top > .top__title > .title__butfirst {
+  width: 26px;
+  height: 26px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.allgame > .allgame__top > .top__title > .title__butfirst > .ri-function-fill {
+  color: #ffffff;
+}
+.allgame > .allgame__top > .top__title > .title__butsecond {
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9fa1a7;
+  margin-right: 13px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.allgame > .allgame__top > .top__title > .title__butsecond:hover {
+  border: 1px solid #07f;
+}
+.allgame > .allgame__top > .top__title > .title__butsecond:hover > i {
+  color: #07f;
+}
+.allgame > .allgame__top > .top__title > .title__butsecond > .ri-menu-fill {
+  color: #9fa1a7;
+}
+.allgame > .allgame__top > .top__title > .title__text {
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+.allgame > .allgame__top > .top__title > .title__text:hover {
+  color: #07f;
+}
+.allgame > .allgame__top > .top__search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #9fa1a7;
+  width: 23%;
+}
+.allgame > .allgame__mid {
+  width: 100vw;
+  max-width: 1280px;
+  height: 10vh;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px 30px 3px 30px;
+  margin-top: 29px;
+  margin-bottom: 20px;
+}
+.allgame > .allgame__mid > .top {
+  margin-bottom: 20px;
+}
+.allgame > .allgame__mid > .top > .mid__pickteg {
+  color: #ffffff;
+  background-color: #17191d;
+  border-radius: 12px;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 4px 10px;
+  margin-right: 25px;
+}
+.allgame > .allgame__mid > .top > .mid__teg {
+  color: #9fa1a7;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 26px;
+  transition: all 0.5s;
+}
+.allgame > .allgame__mid > .bot > .mid__teg {
+  color: #9fa1a7;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 26px;
+  transition: all 0.5s;
+}
+.allgame > .allgame__mid > .top > .mid__teg:hover {
+  color: #07f;
+}
+.allgame > .allgame__mid > .bot > .mid__teg:hover {
+  color: #07f;
+}
+.allgame > .allgame__bot {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 3750px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  column-gap: 23px;
+  row-gap: 60px;
+}
+.allgame > .allgame__bot > .bot__deck {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.allgame > .allgame__bot > .bot__deck:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__imgbox {
+  width: 100%;
+  height: 63%;
+  overflow: hidden;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__imgbox > img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.allgame > .allgame__bot > .bot__deck:hover > .deck__imgbox > img {
+  transform: scale(1.1);
+}
+.allgame > .allgame__bot > .bot__deck > .deck__title {
+  font-weight: 700;
+  margin: 25px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__title > .icon {
+  font-size: 18px;
+  color: #9fa1a7;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__title > .icon:hover {
+  color: #07f;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__category {
+  color: #9fa1a7;
+  font-size: 11px;
+  margin: 0px 20px 10px 20px;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__category > .category__event {
+  color: #07f;
+  margin-right: 5px;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__system {
+  margin: 0 17px 0 20px;
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+  position: relative;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__system > .system__but {
+  padding: 5px;
+  background-color: #2be283;
+  border-radius: 16px;
+  font-size: 9px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__system > .system__but2 {
+  padding: 5px;
+  background-color: #02b0ff;
+  border-radius: 16px;
+  font-size: 9px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__system > i {
+  color: #9fa1a7;
+  font-size: 22px;
+  position: relative;
+  transition: all 0.5s;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__system > i:hover {
+  color: #07f;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__system > i > .mac__icontooltip {
+  padding: 10px;
+  background-color: #1b1f24;
+  color: #8b8d92;
+  font-size: 11px;
+  position: absolute;
+  top: 125%;
+  left: -80%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.allgame
+  > .allgame__bot
+  > .bot__deck
+  > .deck__system
+  > i:hover
+  > .mac__icontooltip {
+  opacity: 1;
+}
+.allgame
+  > .allgame__bot
+  > .bot__deck
+  > .deck__system
+  > i
+  > .phone__icontooltip {
+  padding: 10px;
+  background-color: #1b1f24;
+  color: #8b8d92;
+  font-size: 11px;
+  position: absolute;
+  top: 125%;
+  left: -300%;
+  transition: all 0.5s;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+}
+.allgame
+  > .allgame__bot
+  > .bot__deck
+  > .deck__system
+  > i:hover
+  > .phone__icontooltip {
+  opacity: 1;
+}
+.allgame > .allgame__bot > .bot__deck > .deck__system > i > .pad__icontooltip {
+  padding: 10px;
+  background-color: #1b1f24;
+  color: #8b8d92;
+  font-size: 11px;
+  position: absolute;
+  top: 125%;
+  left: -230%;
+  transition: all 0.5s;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+}
+.allgame
+  > .allgame__bot
+  > .bot__deck
+  > .deck__system
+  > i:hover
+  > .pad__icontooltip {
+  opacity: 1;
+}
