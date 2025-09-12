@@ -104,6 +104,12 @@ main > .work__section {
   overflow: hidden;
   transition: all 2s;
 }
+.work__section > .work__section-grid > .work__grid-card > img {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .ri-hourglass-line {
   font-size: 120px;
   color: gold;
@@ -117,12 +123,17 @@ main > .work__section {
   left: 0;
   transition: all 1s;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .work__card-action > .work__action-text {
   color: gold;
   font-size: 40px;
+}
+.work__card-action > .work__action-text2 {
+  color: gold;
+  font-size: 15px;
 }
 .work__grid-card:hover > .work__card-action {
   top: 0;
